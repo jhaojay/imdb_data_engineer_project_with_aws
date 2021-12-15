@@ -64,7 +64,7 @@ Run the following command to retrieve 3 tables of data and save to csv files:
 ```python
 $ python3 prepare_files.py
 ```
-The folder "imdb_raw_data" will be generated, and it has the following structure:
+
 
 # Usage
 (Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
