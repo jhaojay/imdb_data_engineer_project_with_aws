@@ -8,7 +8,7 @@
 
 
 # Dependency
-Python 3.7.10 was used for this project.
+Python 3.7.10 was used for this project, and the following non-standard libraries were used:
 ```
 pyarrow==6.0.1
 ```
