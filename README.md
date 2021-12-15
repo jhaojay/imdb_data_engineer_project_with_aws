@@ -1,1 +1,15 @@
-# imdb_data_engineer_project_with_aws
+# Introduction
+
+
+# Project Overview Diagram
+
+
+# Code Flowcharts
+
+
+# Dependency
+
+
+# Usage
+
+
