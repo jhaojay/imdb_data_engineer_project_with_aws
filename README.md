@@ -21,6 +21,7 @@ The imdb data were scrapped and stored in PostgreSQL using programs from my othe
 ```python
 $ python3 prepare_files.py
 ```
+The folder "imdb_raw_data" will be generated, and it has the following structure:
 ```
 imdb_raw_data
 │   ├── 202112141930
