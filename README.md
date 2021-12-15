@@ -1,5 +1,5 @@
 # Introduction
-
+In this project, I emulated an automated ETL processes of retrieving data
 
 # Project Overview Diagram
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/Overview.JPG?raw=true)
