@@ -45,9 +45,14 @@ imdb_raw_data
 <br /><br />
 2. Grant imdb-ec2 access to imdb-bkt, and grant de-ec2 access to both de-bkt and imdb-bkt.
 <br /><br />
-3. Use scp command to copy scripts to the corresponding EC2:
+3. Use scp command to copy the Python scripts to the corresponding EC2:
 ```
 $ sudo scp -i <key.pem> <from_local_dir> <to_ec2_dir>
+```
+<br /><br />
+4. Copy the imdb_raw_data directory to imdb-ec2:
+```python
+$ sudo scp -i <key.pem> <local_imdb_raw_data_dir> -r <to_imdb_ec2_dir>
 ```
 <br /><br />
 4. In the imdb-ec2, modify the crontab file:
