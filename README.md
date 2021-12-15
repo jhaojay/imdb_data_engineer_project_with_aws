@@ -2,7 +2,7 @@
 
 
 # Project Overview Diagram
-
+![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/Overview.JPG?raw=true)
 
 # Design Flowchart
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/main_flowchart.JPG?raw=true)
