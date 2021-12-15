@@ -37,6 +37,9 @@ imdb_raw_data
 │   │   ├── 202112141950_type_A.csv
 │   │   ├── 202112141950_type_B.csv
 │   │   └── 202112141950_type_C.csv
+    .
+    .
+    .
 ```
 # Usage
 (Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
