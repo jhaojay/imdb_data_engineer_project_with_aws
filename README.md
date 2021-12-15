@@ -17,7 +17,7 @@ Use the following command to install the dependencies
 $ pip install -r requirements.txt
 ```
 # Usage
-Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.
+(Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
 
 1. Launch two instances, named imdb-ec2 and de-ec2, and create two buckets, named imdb-bkt and de-bkt.
 <br /><br />
