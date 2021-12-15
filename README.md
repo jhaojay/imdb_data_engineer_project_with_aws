@@ -33,3 +33,8 @@ and add the following task:
 ```python
 */10 * * * * <path to imdb_ec2_to_s3.py>
 ```
+<br /><br />
+5. In the de-ec2, add the following to the crontab file:
+```python
+*/10 * * * * sleep 61; <path to main.py>
+```
