@@ -2,7 +2,7 @@
 
 
 # Project Overview Diagram
-![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/Overview.JPG?raw=true)
+![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/Overview.JPG?raw=true)
 imdb-bkt has the following directory structure:
 ```python
 imdb-bkt
