@@ -3,9 +3,29 @@
 
 # Project Overview Diagram
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/Overview.JPG?raw=true)
+imdb-bkt has the following directory structure:
+```python
+imdb-bkt
+└── imdb_raw_data
+├── 202112141930
+│   ├── 202112141930_type_A.csv
+│   ├── 202112141930_type_B.csv
+│   └── 202112141930_type_C.csv
+├── 202112141940
+│   ├── 202112141940_type_A.csv
+│   ├── 202112141940_type_B.csv
+│   └── 202112141940_type_C.csv
+├── 202112141950
+│   ├── 202112141950_type_A.csv
+│   ├── 202112141950_type_B.csv
+│   └── 202112141950_type_C.csv
+	└── …
+
+```
 
 # Design Flowchart
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/main_flowchart.JPG?raw=true)
+
 
 # Dependency
 Python 3.7.10 was used for this project, and the following non-standard libraries were used:
@@ -16,6 +36,7 @@ Use the following command to install the dependencies
 ```python
 $ pip install -r requirements.txt
 ```
+
 # Preparation of Raw Data
 The imdb data were scrapped and stored in PostgreSQL using programs from my other project: [imdb_top50_by_genre](https://github.com/jhaojay/imdb_top50_by_genre/).
 <br /><br />
@@ -24,24 +45,7 @@ Run the following command to retrieve 3 tables of data and save to csv files:
 $ python3 prepare_files.py
 ```
 The folder "imdb_raw_data" will be generated, and it has the following structure:
-```
-imdb_raw_data
-│   ├── 202112141930
-│   │   ├── 202112141930_type_A.csv
-│   │   ├── 202112141930_type_B.csv
-│   │   └── 202112141930_type_C.csv
-│   ├── 202112141940
-│   │   ├── 202112141940_type_A.csv
-│   │   ├── 202112141940_type_B.csv
-│   │   └── 202112141940_type_C.csv
-│   ├── 202112141950
-│   │   ├── 202112141950_type_A.csv
-│   │   ├── 202112141950_type_B.csv
-│   │   └── 202112141950_type_C.csv
-    .
-    .
-    .
-```
+
 # Usage
 (Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
 
