@@ -18,6 +18,7 @@ $ pip install -r requirements.txt
 ```
 # Preparation of Raw Data
 The imdb data were scrapped and stored in PostgreSQL using programs from my other project: [imdb_top50_by_genre](https://github.com/jhaojay/imdb_top50_by_genre/).
+<br /><br />
 Run the following command to retrieve 3 tables of data and save to csv files.
 ```python
 $ python3 prepare_files.py
