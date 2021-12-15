@@ -2,7 +2,7 @@
 In this project, I emulated an automated ETL processes with AWS's EC2 and S3 services. The client company sends 3 types of raw data files containing imdb movie info for every 10 minutes. A data engineering team retrieves the raw data files for every 10 minutes, verifies, merges, and converts the files into parquet format. If the raw data files are unable to be verified, they will be re-verified in the next processing cycle. After parquet files are ready, they will be uploaded to de-bkt for the data science team to analyze.
 
 # Project Overview Diagram
-![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/Overview.JPG?raw=true)
+![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/overview.JPG?raw=true)
 imdb-bkt has the following directory structure:
 ```python
 imdb-bkt
