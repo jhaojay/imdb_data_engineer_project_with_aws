@@ -21,6 +21,7 @@ Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief inst
 
 1. Launch two instances, named imdb-ec2 and de-ec2, and create two buckets, named imdb-bkt and de-bkt.
 2. Grant imdb-ec2 access to imdb-bkt, and grant de-ec2 access to de-bkt.
+<br /><br />
 3. Use scp command to copy scripts to the corresponding EC2:
 ```
 $ sudo scp -i <key.pem> <from_local_dir> <to_ec2_dir>
