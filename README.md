@@ -16,6 +16,9 @@ Use the following command to install the dependencies
 ```python
 $ pip install -r requirements.txt
 ```
+# Preparation of Raw Data
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 # Usage
 (Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
 
