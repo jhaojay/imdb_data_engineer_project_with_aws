@@ -17,7 +17,7 @@ Use the following command to install the dependencies
 $ pip install -r requirements.txt
 ```
 # Preparation of Raw Data
-This site was built using [GitHub Pages](https://pages.github.com/).
+The imdb data were scrapped and stored in PostgreSQL by using my other project: [imdb_top50_by_genre](https://github.com/jhaojay/imdb_top50_by_genre/).
 
 # Usage
 (Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief instructions are given here.)
