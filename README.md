@@ -36,6 +36,7 @@ and add the following task:
 */10 * * * * <path to imdb_ec2_to_s3.py>
 ```
 The EC2 will upload raw data at every 10th minute.
+
 <br /><br />
 5. In the de-ec2, add the following task to the crontab file:
 ```python
