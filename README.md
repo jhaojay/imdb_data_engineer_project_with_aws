@@ -1,5 +1,5 @@
 # Introduction
-In this project, I emulated an automated ETL processes. The client company sends raw data containning imdb movie info for every 10 minutes. A data engineering team retrieve the raw data for every 10 minutes, verify the files, merge and convert the files into parquet format. If the raw data files are unable to be verified, they will be re-verify the next time. After parquet files are ready, they will be uploaded to de-bkt for data science team to analyse.
+In this project, I emulated an automated ETL processes with AWS's EC2 and S3 servies. The client company sends raw data containning imdb movie info for every 10 minutes. A data engineering team retrieve the raw data files for every 10 minutes, verify the files, merge and convert the files into parquet format. If the raw data files are unable to be verified, they will be re-verify the next time. After parquet files are ready, they will be uploaded to de-bkt for data science team to analyse.
 
 # Project Overview Diagram
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/Overview.JPG?raw=true)
