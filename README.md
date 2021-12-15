@@ -5,7 +5,7 @@
 
 
 # Design Flowchart
-
+![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/main_flowchart.JPG?raw=true)
 
 # Dependency
 Python 3.7.10 was used for this project, and the following non-standard libraries were used:
