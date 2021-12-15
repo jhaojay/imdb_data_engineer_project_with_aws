@@ -44,7 +44,7 @@ de-bkt
 └── unprocessed.log  # contain info of data that can’t be processed
 ```
 # Design Flowchart
-![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/main_flowchart.JPG?raw=true)
+![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/jpg/main_flowchart.JPG?raw=true)
 
 
 # Dependency
