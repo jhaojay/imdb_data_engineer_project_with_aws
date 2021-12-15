@@ -25,6 +25,7 @@ Note: Assuming the reader has the knowledge of AWS's EC2 and S3, only brief inst
 ```
 $ sudo scp -i <key.pem> <from_local_dir> <to_ec2_dir>
 ```
+<br /><br />
 4. In the imdb-ec2, modify the crontab file:
 ```
 $ crontab -e
