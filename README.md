@@ -22,7 +22,27 @@ imdb-bkt
 	└── …
 
 ```
-
+<br /><br />
+de-bkt has the following directory structure:
+```python
+de-bkt
+│
+├── archive  # store verified data
+│   ├── 202112141930
+│   │   ├── 202112141930_type_A.csv
+│   │   ├── 202112141930_type_B.csv
+│   │   └── 202112141930_type_C.csv
+│   ├── 202112141940
+│   │   ├── 202112141940_type_A.csv
+│   │   ├── 202112141940_type_B.csv
+│   │   └── 202112141940_type_C.csv
+│   └── …
+├── clean_files  # store processed files
+│   ├── 202112141930.parquet
+│   ├── 202112141940.parquet
+│   └── …
+└── unprocessed.log  # contain info of data that can’t be processed
+```
 # Design Flowchart
 ![alt text](https://github.com/jhaojay/imdb_data_engineer_project_with_aws/blob/main/main_flowchart.JPG?raw=true)
 
