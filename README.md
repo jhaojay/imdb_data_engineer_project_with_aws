@@ -8,8 +8,13 @@
 
 
 # Dependency
-
-
+Python 3.7.10 was used for this project.
+```
+pyarrow==6.0.1
+```
+```
+pandas==1.3.5
+```
 # Usage
 
 
