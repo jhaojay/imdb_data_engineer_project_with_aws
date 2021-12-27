@@ -1,7 +1,7 @@
 # Introduction
-In this project, I emulated an automated ETL processes with AWS's EC2 and S3 services:
-The client company sends 3 types of raw data files containing imdb movie info for every 10 minutes.
-A data engineering team retrieves the raw data files for every 10 minutes, verifies, merges, and converts the files into parquet format.
+In this project, I emulated an automated ETL processes with AWS's EC2 and S3 services:<br />
+The client company sends 3 types of raw data files containing imdb movie info for every 10 minutes.<br />
+A data engineering team retrieves the raw data files for every 10 minutes, verifies, merges, and converts the files into parquet format.<br />
 If the raw data files are unable to be verified, they will be re-verified in the next processing cycle.
 After parquet files are ready, they will be uploaded to de-bkt for the data science team to analyze.
 For better performance on the queries in AWS Athena, partition of the clean parquet files is done.
