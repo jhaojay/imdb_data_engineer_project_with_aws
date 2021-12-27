@@ -32,15 +32,28 @@ de-bkt
 │   │   ├── 202112141930_type_A.csv
 │   │   ├── 202112141930_type_B.csv
 │   │   └── 202112141930_type_C.csv
+│   │
 │   ├── 202112141940
 │   │   ├── 202112141940_type_A.csv
 │   │   ├── 202112141940_type_B.csv
 │   │   └── 202112141940_type_C.csv
+│   │
 │   └── …
+│   
 ├── clean_files  # store processed files
 │   ├── 202112141930.parquet
 │   ├── 202112141940.parquet
 │   └── …
+│   
+├── partitioned  # store partitioned parquet files for Athena to query
+│   ├── filetime=202112141930
+│   │   └── 202112141930.parquet
+│   │
+│   ├── filetime=202112141930
+│   │   └── 202112141930.parquet
+│   │
+│   └── …
+│   
 └── unprocessed.log  # contain info of data that can’t be processed
 ```
 # Design Flowchart
