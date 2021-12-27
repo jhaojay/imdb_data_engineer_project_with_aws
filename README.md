@@ -83,7 +83,18 @@ $ sudo scp -i <key.pem> <from_local_dir> <to_ec2_dir>
 $ sudo scp -i <key.pem> <local_imdb_raw_data_dir> -r <to_imdb_ec2_dir>
 ```
 <br /><br />
-4. In the imdb-ec2, modify the crontab file:
+5. Supply credential and information in "athena_config.ini" for using AWS Athena:
+```python
+[athena_section]
+ACCESS_ID: yourID
+ACCESS_KEY: yourKey
+region: us-east-2
+database_name: imdb_db
+table_name: imdb_tb
+output_S3_location: s3://ath-out-bkt/
+```
+<br /><br />
+6. In the imdb-ec2, modify the crontab file:
 ```
 $ crontab -e
 ```
@@ -94,7 +105,7 @@ and add the following task:
 The EC2 will upload raw data at every 10th minute.
 
 <br /><br />
-5. In the de-ec2, add the following task to the crontab file:
+7. In the de-ec2, add the following task to the crontab file:
 ```python
 */10 * * * * sleep 61; <path to main.py>
 ```
