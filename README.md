@@ -100,7 +100,7 @@ $ sudo scp -i <key.pem> <local_imdb_raw_data_dir> -r <to_imdb_ec2_dir>
 ```
 <br /><br />
 5. Supply credential and information in "athena_config.ini" for using AWS Athena:
-```python
+```
 [athena_section]
 ACCESS_ID: yourID
 ACCESS_KEY: yourKey
